@@ -14,7 +14,12 @@ Vérifiez le nombre maximum de drawable :
 Chaque composant de personnage a un nombre maximum de drawable disponible. Vérifiez si le composant spécifique du modèle de personnage que vous utilisez atteint cette limite.
 Si vous dépassez la limite, certains indices de drawable peuvent ne pas s’appliquer correctement.
 
+# Gérez les conflits entre composants :
+Cela devrait vous permettre de faire les vérifications nécessaires des composants (drawable et texture) à la fois côté client et côté serveur dans votre script existant. Assurez-vous d'avoir les gestionnaires d'événements correspondants côté client et côté serveur pour appliquer les changements de composants correctement
 
+# VariationValid 
+
+Cela devrait vous permettre de faire les vérifications nécessaires des composants (drawable et texture) à la fois côté client et côté serveur dans votre script existant. Assurez-vous d'avoir les gestionnaires d'événements correspondants côté client et côté serveur pour appliquer les changements de composants correctement. Si vous avez des questions supplémentaires ou avez besoin d'aide pour mettre en place les gestionnaires d'événements, n'hésitez pas à demander !
 ## Contributeurs
 
 - [@LarryDev](https://github.com/L-Ydev)
